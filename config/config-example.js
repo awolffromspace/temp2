@@ -26,6 +26,15 @@ Config.defaultserver = {
 	registered: true
 };
 
+Config.server = {
+	id: 'localhost',
+	host: 'localhost',
+	port: 443,
+	httpport: 8000,
+	altport: 80,
+	registered: true
+};
+
 Config.roomsFirstOpenScript = function () {
 };
 
